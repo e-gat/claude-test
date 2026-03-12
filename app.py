@@ -10,7 +10,7 @@ async def root():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Hello World</title>
+        <title>Hello Universe</title>
         <style>
             body {
                 display: flex;
@@ -24,7 +24,7 @@ async def root():
         </style>
     </head>
     <body>
-        <h1>Hello World</h1>
+        <h1>Hello Universe</h1>
     </body>
     </html>
     """
