@@ -15,9 +15,9 @@ def test_root_returns_html():
     assert "text/html" in response.headers["content-type"]
 
 
-def test_root_contains_hello_world():
+def test_root_contains_hello_universe():
     response = client.get("/")
-    assert "<h1>Hello World</h1>" in response.text
+    assert "<h1>Hello Universe</h1>" in response.text
 
 
 def test_root_is_valid_html():
